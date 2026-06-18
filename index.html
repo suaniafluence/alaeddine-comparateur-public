@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comparateur propositions diaspora - Alaeddine Dehimi</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <aside class="sidebar" aria-label="Navigation principale">
+      <div class="brand">
+        <div class="brand-mark">APN<br /><span>2026</span></div>
+        <div>
+          <strong>Alaeddine Dehimi</strong>
+          <small>Front El Moustakbal</small>
+        </div>
+      </div>
+      <nav>
+        <a href="#matrix" class="active">Comparer</a>
+        <a href="#cards">Candidats</a>
+        <a href="#radar">Profil</a>
+        <a href="#heatmap">Engagements</a>
+        <a href="#gaps">Ecarts</a>
+      </nav>
+      <div class="side-panel">
+        <span>62 candidats potentiels</span>
+        <strong>10 affiches</strong>
+        <small>Vue adaptee a une selection courte et lisible.</small>
+      </div>
+    </aside>
+
+    <main>
+      <header class="topbar">
+        <div>
+          <h1>Comparer les propositions</h1>
+          <p>Plusieurs facons graphiques de presenter les differences entre candidats sur les 10 priorites diaspora.</p>
+        </div>
+        <div class="actions" aria-label="Filtres">
+          <button type="button" class="ghost">France - Algerie</button>
+          <button type="button">Partager la comparaison</button>
+        </div>
+      </header>
+
+      <section class="intro">
+        <div>
+          <span class="label">Positionnement</span>
+          <strong>Alaeddine est affiche comme candidat de reference.</strong>
+          <p>Les concurrents utilisent des donnees fictives: Candidat 1, Candidat 2, etc. Les scores illustrent une intensite de proposition, pas un sondage.</p>
+        </div>
+        <div class="metric">
+          <span>Score Alaeddine</span>
+          <strong>91/100</strong>
+        </div>
+        <div class="metric">
+          <span>Moyenne concurrence</span>
+          <strong>61/100</strong>
+        </div>
+      </section>
+
+      <section id="matrix" class="section">
+        <div class="section-head">
+          <div>
+            <h2>1. Matrice de comparaison</h2>
+            <p>La plus directe pour montrer qui porte clairement chaque proposition.</p>
+          </div>
+          <span class="legend"><b class="yes"></b>Oui <b class="partial"></b>Partiel <b class="no"></b>Non</span>
+        </div>
+        <div class="table-shell">
+          <table id="matrixTable"></table>
+        </div>
+      </section>
+
+      <section id="cards" class="section">
+        <div class="section-head">
+          <div>
+            <h2>2. Cartes candidats</h2>
+            <p>Pratique pour mobile: chaque candidat devient une fiche synthetique.</p>
+          </div>
+        </div>
+        <div class="cards" id="candidateCards"></div>
+      </section>
+
+      <section class="split">
+        <article id="radar" class="section">
+          <div class="section-head">
+            <div>
+              <h2>3. Radar de profil</h2>
+              <p>Montre l'equilibre du programme par grande priorite.</p>
+            </div>
+          </div>
+          <div class="radar-wrap">
+            <svg id="radarChart" viewBox="0 0 520 440" role="img" aria-label="Radar de comparaison des candidats"></svg>
+          </div>
+        </article>
+
+        <article id="ranking" class="section">
+          <div class="section-head">
+            <div>
+              <h2>4. Barres ponderees</h2>
+              <p>Lisible quand on veut classer les candidats par score global.</p>
+            </div>
+          </div>
+          <div id="rankingBars" class="bars"></div>
+        </article>
+      </section>
+
+      <section id="heatmap" class="section">
+        <div class="section-head">
+          <div>
+            <h2>5. Carte de chaleur</h2>
+            <p>Ideale pour reperer vite les points forts et les zones faibles.</p>
+          </div>
+          <div class="scale"><span></span><span></span><span></span><span></span></div>
+        </div>
+        <div class="table-shell">
+          <table id="heatmapTable"></table>
+        </div>
+      </section>
+
+      <section id="gaps" class="section">
+        <div class="section-head">
+          <div>
+            <h2>6. Vue des ecarts avec Alaeddine</h2>
+            <p>Approche offensive: montrer sur chaque sujet ou Alaeddine se differencie.</p>
+          </div>
+        </div>
+        <div id="gapRows" class="gap-list"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
