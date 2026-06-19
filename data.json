@@ -1,0 +1,461 @@
+{
+  "site": {
+    "title": "Comparer les propositions - Zone 2",
+    "subtitle": "Comparaison factuelle des candidats identifies sur les 10 priorites diaspora.",
+    "brandName": "Alaeddine Dehimi",
+    "brandSubtitle": "Front El Moustakbal - Liste n°3",
+    "brandMarkTop": "APN",
+    "brandMarkBottom": "2026",
+    "region": "Zone 2 - France Nord / Grand Est",
+    "shareLabel": "Partager le comparatif"
+  },
+  "navigation": [
+    {
+      "label": "Comparer",
+      "target": "#matrix"
+    },
+    {
+      "label": "Candidats",
+      "target": "#cards"
+    },
+    {
+      "label": "Profil",
+      "target": "#radar"
+    },
+    {
+      "label": "Engagements",
+      "target": "#heatmap"
+    },
+    {
+      "label": "Ecarts",
+      "target": "#gaps"
+    }
+  ],
+  "sidebar": {
+    "totalCandidatesLabel": "7 candidats renseignes",
+    "shownCandidatesLabel": "7 fiches reelles",
+    "note": "Les candidats fictifs ont ete supprimes. Les scores indiquent l'intensite et la verification des propositions, pas un sondage."
+  },
+  "intro": {
+    "label": "Positionnement comparatif",
+    "title": "Alaeddine est le candidat de reference du comparateur.",
+    "text": "Les donnees fictives ont ete remplacees par les candidats identifies : Sebda, Foughalli-atti, Rachida Abdeldjebar, Yousfi Fella, Ahmed Boucif et Ziad Kherrat. Les scores representent la presence, la precision et la verification des propositions par theme.",
+    "featuredScoreLabel": "Score Alaeddine",
+    "competitorAverageLabel": "Moyenne des concurrents"
+  },
+  "labels": {
+    "matrixFirstColumn": "10 priorites diaspora",
+    "heatmapFirstColumn": "Priorite",
+    "strongPrioritiesSuffix": "priorites fortes",
+    "otherAverage": "Moyenne des autres",
+    "pointsSuffix": "pts",
+    "displayedCandidatesFallback": "affiches",
+    "statusYes": "Oui",
+    "statusPartial": "Partiel",
+    "statusNo": "Non",
+    "legendYes": "Oui",
+    "legendPartial": "Partiel",
+    "legendNo": "Non",
+    "statusYesSymbol": "OK",
+    "statusPartialSymbol": "~",
+    "statusNoSymbol": "X",
+    "loadErrorTitle": "Erreur de chargement",
+    "missingDataError": "Le fichier data.json doit contenir themes et candidates.",
+    "loadDataError": "Impossible de charger data.json.",
+    "candidateScoresErrorPrefix": "Le candidat",
+    "candidateScoresErrorSuffix": "doit avoir un score pour chaque theme."
+  },
+  "sections": {
+    "matrix": {
+      "title": "1. Matrice de comparaison",
+      "description": "La plus directe pour montrer qui porte clairement chaque proposition."
+    },
+    "cards": {
+      "title": "2. Cartes candidats",
+      "description": "Pratique pour mobile: chaque candidat devient une fiche synthetique."
+    },
+    "radar": {
+      "title": "3. Radar de profil",
+      "description": "Montre l'equilibre du programme par grande priorite."
+    },
+    "ranking": {
+      "title": "4. Barres ponderees",
+      "description": "Lisible quand on veut classer les candidats par score global."
+    },
+    "heatmap": {
+      "title": "5. Carte de chaleur",
+      "description": "Ideale pour reperer vite les points forts et les zones faibles."
+    },
+    "gaps": {
+      "title": "6. Vue des ecarts avec Alaeddine",
+      "description": "Approche offensive: montrer sur chaque sujet ou Alaeddine se differencie."
+    }
+  },
+  "themes": [
+    "Deplacements",
+    "Demarches consulaires",
+    "Documents",
+    "Familles",
+    "Etudiants",
+    "Investissement",
+    "Numerique",
+    "Competences",
+    "Cooperations",
+    "Defense citoyenne"
+  ],
+  "candidates": [
+    {
+      "name": "Alaeddine Dehimi",
+      "party": "Front El Moustakbal",
+      "initials": "AD",
+      "shortName": "Alaeddine",
+      "featured": true,
+      "listNumber": "3",
+      "candidateNumber": "6",
+      "zone": "Zone 2 - France Nord",
+      "scores": [
+        92,
+        94,
+        90,
+        88,
+        86,
+        90,
+        91,
+        89,
+        86,
+        96
+      ],
+      "angle": "Candidat de reference : programme transversal, numerique, suivi des dossiers, mobilite, competences et cooperation.",
+      "riskForAlaeddine": "reference",
+      "sourceConfidence": "forte",
+      "sources": [
+        "https://2026.alaeddine-dehimi.com/fr/priorites/",
+        "supports officiels de campagne consultes"
+      ],
+      "themeStatus": [
+        "present",
+        "present",
+        "present",
+        "present",
+        "present",
+        "present",
+        "present",
+        "present",
+        "present",
+        "present"
+      ],
+      "summary": "Couverture complete des 10 priorites. Positionnement moderne et operationnel : administration, mobilite, numerique, investissement, competences et defense citoyenne.",
+      "scoreSummary": {
+        "present": 10,
+        "partiel": 0,
+        "absent": 0,
+        "moyenne": 90.2
+      }
+    },
+    {
+      "name": "Sebda Nawel Aicha Sofia",
+      "party": "Front El Moustakbal",
+      "initials": "NS",
+      "shortName": "Sebda",
+      "featured": false,
+      "listNumber": "3",
+      "candidateNumber": "1",
+      "zone": "Zone 2 - Lille, Metz, Nantes, Besancon, Grenoble, Strasbourg",
+      "scores": [
+        20,
+        88,
+        65,
+        92,
+        66,
+        82,
+        64,
+        86,
+        84,
+        92
+      ],
+      "angle": "Concurrente interne prioritaire : meme liste que Dehimi, candidate n.1, registre proximite/familles/terrain.",
+      "riskForAlaeddine": "tres eleve",
+      "sourceConfidence": "moyenne",
+      "sources": [
+        "images fournies Sebda.jpg a Sebda4.jpg"
+      ],
+      "themeStatus": [
+        "absent",
+        "present",
+        "partiel",
+        "present",
+        "partiel",
+        "present",
+        "partiel",
+        "present",
+        "present",
+        "present"
+      ],
+      "summary": "Programme visuel en 5 axes. Forte sur proximite, familles, consulats, representation et solidarite. Moins precise sur deplacements, transferts et numerique avance.",
+      "scoreSummary": {
+        "present": 6,
+        "partiel": 3,
+        "absent": 1,
+        "moyenne": 73.9
+      }
+    },
+    {
+      "name": "Ala-eddine Foughalli-atti",
+      "party": "RND",
+      "initials": "AF",
+      "shortName": "Foughalli",
+      "featured": false,
+      "listNumber": "1",
+      "candidateNumber": "non mentionne",
+      "zone": "Zone 2 - France Nord (Nantes, Lille, Metz, Strasbourg, Besancon, Grenoble)",
+      "scores": [
+        78,
+        95,
+        92,
+        58,
+        65,
+        86,
+        70,
+        76,
+        20,
+        90
+      ],
+      "angle": "Concurrent externe structure : guichet unique, identite numerique, dossiers suivis et transparence.",
+      "riskForAlaeddine": "eleve",
+      "sourceConfidence": "forte",
+      "sources": [
+        "https://www.foughali.com/",
+        "https://www.foughali.com/actualites/mon-programme/"
+      ],
+      "themeStatus": [
+        "present",
+        "present",
+        "present",
+        "partiel",
+        "partiel",
+        "present",
+        "partiel",
+        "present",
+        "absent",
+        "present"
+      ],
+      "summary": "Programme clair sur la digitalisation administrative, la reduction des delais consulaires et l'investissement. Moins large sur familles, transferts financiers et cooperations.",
+      "scoreSummary": {
+        "present": 6,
+        "partiel": 3,
+        "absent": 1,
+        "moyenne": 73.0
+      }
+    },
+    {
+      "name": "Rachida Abdeldjebar",
+      "party": "RND",
+      "initials": "RA",
+      "shortName": "Rachida",
+      "featured": false,
+      "listNumber": "1",
+      "candidateNumber": "non mentionne",
+      "zone": "Zone 2 - Grand Est : Lille, Metz, Strasbourg, Grenoble, Besancon",
+      "scores": [
+        45,
+        55,
+        50,
+        50,
+        45,
+        50,
+        45,
+        45,
+        20,
+        70
+      ],
+      "angle": "Candidate RND identifiee par affiches : proximite, engagement, resultats. Programme personnel detaille non trouve.",
+      "riskForAlaeddine": "moyen",
+      "sourceConfidence": "faible",
+      "sources": [
+        "images fournies Rachida Abdeldjebar.jpg et Rachida Abdeldjebar1.jpg",
+        "recherche web : aucun programme personnel fiable trouve"
+      ],
+      "themeStatus": [
+        "partiel",
+        "partiel",
+        "partiel",
+        "partiel",
+        "partiel",
+        "partiel",
+        "partiel",
+        "partiel",
+        "absent",
+        "present"
+      ],
+      "summary": "Positionnement surtout affiche : proximite, service aux citoyens, engagement et resultats. Faute de programme personnel, les scores restent prudents et ne doivent pas etre lus comme des engagements detailles.",
+      "scoreSummary": {
+        "present": 0,
+        "partiel": 9,
+        "absent": 1,
+        "moyenne": 47.5
+      }
+    },
+    {
+      "name": "Yousfi Fella",
+      "party": "MSP",
+      "initials": "YF",
+      "shortName": "Yousfi",
+      "featured": false,
+      "listNumber": "non verifie",
+      "candidateNumber": "non verifie",
+      "zone": "Algeriens residant a l'etranger - zone precise non verifiee",
+      "scores": [
+        90,
+        91,
+        90,
+        90,
+        94,
+        95,
+        92,
+        91,
+        90,
+        93
+      ],
+      "angle": "Concurrent programmatique majeur : programme MSP tres dense, mais ancrage Zone 2 et numeros non verifies.",
+      "riskForAlaeddine": "eleve si Zone 2 confirmee",
+      "sourceConfidence": "moyenne",
+      "sources": [
+        "document fourni : Yousfi Fella.docx"
+      ],
+      "themeStatus": [
+        "present",
+        "present",
+        "present",
+        "present",
+        "present",
+        "present",
+        "present",
+        "present",
+        "present",
+        "present"
+      ],
+      "summary": "Programme le plus dense sur le papier : transport aerien/maritime, banques, transferts, stages, investissement, consulats, competences et soutien social. Zone et numeros a verifier.",
+      "scoreSummary": {
+        "present": 10,
+        "partiel": 0,
+        "absent": 0,
+        "moyenne": 91.6
+      }
+    },
+    {
+      "name": "Ahmed Boucif",
+      "party": "Front El Moustakbal",
+      "initials": "AB",
+      "shortName": "Ahmed",
+      "featured": false,
+      "listNumber": "3",
+      "candidateNumber": "8",
+      "zone": "Zone 2 - Lille, Metz, Strasbourg, Besancon, Nantes, Grenoble",
+      "scores": [
+        15,
+        20,
+        20,
+        20,
+        20,
+        50,
+        20,
+        65,
+        60,
+        55
+      ],
+      "angle": "Profil technique : energie, management, droit, association algero-europeenne. Programme detaille non visible.",
+      "riskForAlaeddine": "moyen",
+      "sourceConfidence": "faible",
+      "sources": [
+        "images fournies Ahmed Boucif.jpg et Ahmed Boucif 1.jpg"
+      ],
+      "themeStatus": [
+        "absent",
+        "absent",
+        "absent",
+        "absent",
+        "absent",
+        "partiel",
+        "absent",
+        "partiel",
+        "partiel",
+        "partiel"
+      ],
+      "summary": "Profil personnel fort, notamment energie et transition, mais pas de propositions detaillees dans les sources visibles.",
+      "scoreSummary": {
+        "present": 0,
+        "partiel": 4,
+        "absent": 6,
+        "moyenne": 34.5
+      }
+    },
+    {
+      "name": "Ziad Kherrat",
+      "party": "TAJ",
+      "initials": "ZK",
+      "shortName": "Ziad",
+      "featured": false,
+      "listNumber": "9",
+      "candidateNumber": "non mentionne",
+      "zone": "Zone 2 - Grenoble, Nantes, Strasbourg, Lille, Metz, Besancon",
+      "scores": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        15,
+        10,
+        15,
+        10,
+        35
+      ],
+      "angle": "Profil economique et auto-entrepreneur, mais programme non visible dans l'affiche fournie.",
+      "riskForAlaeddine": "faible",
+      "sourceConfidence": "faible",
+      "sources": [
+        "image fournie Ziad Kherrat.jpg"
+      ],
+      "themeStatus": [
+        "absent",
+        "absent",
+        "absent",
+        "absent",
+        "absent",
+        "absent",
+        "absent",
+        "absent",
+        "absent",
+        "partiel"
+      ],
+      "summary": "Affiche surtout electorale : TAJ, liste n.9, licence en economie bancaire et monetaire, auto-entrepreneur. Aucune proposition concrete visible.",
+      "scoreSummary": {
+        "present": 0,
+        "partiel": 0,
+        "absent": 10,
+        "moyenne": 13.5
+      }
+    }
+  ],
+  "metadata": {
+    "updatedAt": "2026-06-19",
+    "version": "zone2_reel_v2",
+    "method": "Scores de 0 a 100 bases sur presence, precision et verification des propositions. 75+ = present fort, 45-74 = partiel, <45 = absent/faible.",
+    "removed": [
+      "Candidat 1",
+      "Candidat 2",
+      "Candidat 3",
+      "Candidat 4",
+      "Candidat 5",
+      "Candidat 6",
+      "Candidat 7",
+      "Candidat 8",
+      "Candidat 9"
+    ],
+    "caveats": [
+      "Rachida Abdeldjebar : programme personnel detaille non trouve, scores prudents bases sur affiches et appartenance RND.",
+      "Yousfi Fella : programme tres complet mais zone et numeros non verifies dans les sources disponibles.",
+      "Ahmed Boucif et Ziad Kherrat : affiches principalement biographiques/electorales, peu de programme explicite."
+    ]
+  }
+}
