@@ -32,14 +32,14 @@
     }
   ],
   "sidebar": {
-    "totalCandidatesLabel": "7 candidats renseignes",
-    "shownCandidatesLabel": "7 fiches reelles",
+    "totalCandidatesLabel": "6 candidats renseignes",
+    "shownCandidatesLabel": "6 fiches reelles",
     "note": "Les candidats fictifs ont ete supprimes. Les scores indiquent l'intensite et la verification des propositions, pas un sondage."
   },
   "intro": {
     "label": "Positionnement comparatif",
     "title": "Alaeddine est le candidat de reference du comparateur.",
-    "text": "Les donnees fictives ont ete remplacees par les candidats identifies : Sebda, Foughalli-atti, Rachida Abdeldjebar, Youcef Yousfi, Ahmed Boucif et Ziad Kherrat. Les scores representent la presence, la precision et la verification des propositions par theme.",
+    "text": "Les donnees fictives ont ete remplacees par les candidats identifies : Sebda, Foughalli-atti, Rachida Abdeldjebar, Ahmed Boucif et Ziad Kherrat. Les scores representent la presence, la precision et la verification des propositions par theme.",
     "featuredScoreLabel": "Score Alaeddine",
     "competitorAverageLabel": "Moyenne des concurrents"
   },
@@ -296,53 +296,6 @@
       }
     },
     {
-      "name": "Youcef Yousfi",
-      "party": "MSP",
-      "initials": "YF",
-      "shortName": "Yousfi",
-      "featured": false,
-      "listNumber": "non verifie",
-      "candidateNumber": "non verifie",
-      "zone": "Algeriens residant a l'etranger - zone precise non verifiee",
-      "scores": [
-        90,
-        91,
-        90,
-        90,
-        94,
-        95,
-        92,
-        91,
-        90,
-        93
-      ],
-      "angle": "Concurrent programmatique majeur : programme MSP tres dense, mais ancrage Zone 2 et numeros non verifies.",
-      "riskForAlaeddine": "eleve si Zone 2 confirmee",
-      "sourceConfidence": "moyenne",
-      "sources": [
-        "document fourni : Youcef Yousfi.docx"
-      ],
-      "themeStatus": [
-        "present",
-        "present",
-        "present",
-        "present",
-        "present",
-        "present",
-        "present",
-        "present",
-        "present",
-        "present"
-      ],
-      "summary": "Programme le plus dense sur le papier : transport aerien/maritime, banques, transferts, stages, investissement, consulats, competences et soutien social. Zone et numeros a verifier.",
-      "scoreSummary": {
-        "present": 10,
-        "partiel": 0,
-        "absent": 0,
-        "moyenne": 91.6
-      }
-    },
-    {
       "name": "Ahmed Boucif",
       "party": "Front El Moustakbal",
       "initials": "AB",
@@ -454,7 +407,6 @@
     ],
     "caveats": [
       "Rachida Abdeldjebar : programme personnel detaille non trouve, scores prudents bases sur affiches et appartenance RND.",
-      "Youcef Yousfi : programme tres complet mais zone et numeros non verifies dans les sources disponibles.",
       "Ahmed Boucif et Ziad Kherrat : affiches principalement biographiques/electorales, peu de programme explicite."
     ]
   }
