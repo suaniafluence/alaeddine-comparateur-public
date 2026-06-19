@@ -39,7 +39,7 @@
   "intro": {
     "label": "Positionnement comparatif",
     "title": "Alaeddine est le candidat de reference du comparateur.",
-    "text": "Les donnees fictives ont ete remplacees par les candidats identifies : Sebda, Foughalli-atti, Rachida Abdeldjebar, Yousfi Fella, Ahmed Boucif et Ziad Kherrat. Les scores representent la presence, la precision et la verification des propositions par theme.",
+    "text": "Les donnees fictives ont ete remplacees par les candidats identifies : Sebda, Foughalli-atti, Rachida Abdeldjebar, Youcef Yousfi, Ahmed Boucif et Ziad Kherrat. Les scores representent la presence, la precision et la verification des propositions par theme.",
     "featuredScoreLabel": "Score Alaeddine",
     "competitorAverageLabel": "Moyenne des concurrents"
   },
@@ -296,7 +296,7 @@
       }
     },
     {
-      "name": "Yousfi Fella",
+      "name": "Youcef Yousfi",
       "party": "MSP",
       "initials": "YF",
       "shortName": "Yousfi",
@@ -320,7 +320,7 @@
       "riskForAlaeddine": "eleve si Zone 2 confirmee",
       "sourceConfidence": "moyenne",
       "sources": [
-        "document fourni : Yousfi Fella.docx"
+        "document fourni : Youcef Yousfi.docx"
       ],
       "themeStatus": [
         "present",
@@ -454,7 +454,7 @@
     ],
     "caveats": [
       "Rachida Abdeldjebar : programme personnel detaille non trouve, scores prudents bases sur affiches et appartenance RND.",
-      "Yousfi Fella : programme tres complet mais zone et numeros non verifies dans les sources disponibles.",
+      "Youcef Yousfi : programme tres complet mais zone et numeros non verifies dans les sources disponibles.",
       "Ahmed Boucif et Ziad Kherrat : affiches principalement biographiques/electorales, peu de programme explicite."
     ]
   }
